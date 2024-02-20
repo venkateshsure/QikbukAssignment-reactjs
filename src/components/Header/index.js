@@ -7,7 +7,7 @@ const Header=()=>{
     return (
         <div className='header-con'>
             <div className='header-content-con'>
-                <p>BId</p>
+                <p className="header-bid-text">BId</p>
                 <p>POD</p>
                 <p>Vendor</p>
                 <p>User</p>

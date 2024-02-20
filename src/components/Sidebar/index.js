@@ -1,3 +1,5 @@
+import { LuActivitySquare } from "react-icons/lu";
+
 import './index.css'
 
 const Sidebar=()=>{
@@ -8,38 +10,38 @@ const Sidebar=()=>{
                 <p>LOGO</p>
             </div>
             <div className='sidebar-option-head-con'>
-            <div className='sidebar-option-con'>
-                <p>v</p>
-                <p>BID</p>
+            <div className='sidebar-option1-con'>
+                <LuActivitySquare/>
+                <p className='bid-text'>BID</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>POD</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>Vendor</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+                <LuActivitySquare/>
                 <p>User</p>
             </div>
             </div>
             <div className='sidebar-bottom-con'>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>Settings</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>Profile</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>Contact Us</p>
             </div>
             <div className='sidebar-option-con'>
-                <p>v</p>
+            <LuActivitySquare/>
                 <p>Logout</p>
             </div>
             </div>
