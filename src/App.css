@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.sidebar-header-home-con{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  min-height:100vh;
+}
+
+.sidebar{
+  width:11%;
+  min-height:100vh;
+
+}
+
+
+.header-home-con{
+  display: flex;
+  flex-direction: column;
+  width:89%;
+  min-height:100vh;
+}
