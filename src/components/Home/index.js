@@ -18,25 +18,30 @@ const Home =()=>{
             <div className="home-fir-con">
                 <h2 className="h2-element">Loading Point details</h2>
                 <div className="fir-content-con">
-                    <label htmlFor="city">City</label>
-                    <input type="text" id="city"/>
-                    <label htmlFor="state">State</label>
-                    <select>
-                        <option>Andhra Pradesh</option>
-                        <option>Tamilnadu</option>
-                        <option>Karnataks</option>
-                        <option>Maharashtra</option>
-                        <option>Kerala</option>
-                    </select>
+                    
+                        <label htmlFor="city">City</label>
+                        <input type="text" id="city" className="input-con"/>
+                        <div className="fir-content-con-select-con">
+
+                        <label htmlFor="state">State</label>
+                        <select>
+                            <option>Andhra Pradesh</option>
+                            <option>Tamilnadu</option>
+                            <option>Karnataks</option>
+                            <option>Maharashtra</option>
+                            <option>Kerala</option>
+                        </select>
+                        </div>
+                    
                 </div>
                 <div className="fir-address-con">
                     
                     <label htmlFor="adddress">Address</label>
-                    <input type="text" id="address" className="address-input"/>
+                    <input type="text" id="address" className="input-con"/>
                 </div>
                 <div className="fir-content-con">
                     <label htmlFor="pin code">Pin Code</label>
-                    <input type="number" id="pin code"/>
+                    <input type="number" id="pin code" className="input-con"/>
                 </div>
             </div>
 
@@ -45,7 +50,7 @@ const Home =()=>{
             < h2 className="h2-element">Unloading Point details</h2>
                 <div className="fir-content-con">
                     <label htmlFor="city">City</label>
-                    <input type="text" id="city"/>
+                    <input type="text" id="city" className="input-con"/>
                     <label htmlFor="state">State</label>
                     <select>
                         <option>Andhra Pradesh</option>
@@ -58,18 +63,18 @@ const Home =()=>{
                 <div className="fir-address-con">
                     
                     <label htmlFor="adddress">Address</label>
-                    <input type="text" id="address" className="address-input"/>
+                    <input type="text" id="address" className="input-con"/>
                 </div>
                 <div className="fir-content-con">
                     <label htmlFor="pin code">Pin Code</label>
-                    <input type="number" id="pin code"/>
+                    <input type="number" id="pin code" className="input-con"/>
                 </div>
             </div>
         </div>
         <hr className="hor-con"/>
         <div className="fir-bottom-con">
             <label id="route-distance" className="h2-element">Route Distance</label>
-            <input type="text" id="route-distance"/>
+            <input type="text" id="route-distance" className="input-con"/>
         </div>
         </div>
 
@@ -119,7 +124,7 @@ const Home =()=>{
                 </div>
                 
                     <div>
-                        <input type="checkbox" id="cng"/>
+                        <input type="checkbox" id="cng" className="input-con"/>
                         <label htmlFor="cng">Click here for CNG vehicles</label>
                     </div>
                 
@@ -132,11 +137,11 @@ const Home =()=>{
                 <div className="material-con">
                 <div className="material-con1">
                     <label htmlFor="material-type">Material Type</label>
-                    <input type="text" id="material-type"/>
+                    <input type="text" id="material-type" className="input-con"/>
                 </div>
                 <div className="material-con1">
                     <label htmlFor="material-weight">Material Weight</label>
-                    <input type="text" id="material-weight"/>
+                    <input type="text" id="material-weight" className="input-con"/>
                 </div>
                 </div>
                 
@@ -150,11 +155,11 @@ const Home =()=>{
                 <div className="material-con">
                 <div className="material-con1">
                     <label htmlFor="vehicle-loading-type">Vehicle Loading Weight & time</label>
-                    <input type="text" id="vehicle-loading-typee"/>
+                    <input type="text" id="vehicle-loading-typee" className="input-con"/>
                 </div>
                 <div className="material-con1">
                     <label htmlFor="bid-expiry-date">BId Expiry Date</label>
-                    <input type="text" id="bid-expiry-date"/>
+                    <input type="text" id="bid-expiry-date" className="input-con"/>
                 </div>
                 </div>
         </div>
@@ -167,11 +172,11 @@ const Home =()=>{
                 <div className="material-con">
                 <div className="material-con1">
                     <label htmlFor="name-staff">Name</label>
-                    <input type="text" id="name-staff"/>
+                    <input type="text" id="name-staff" className="input-con"/>
                 </div>
                 <div className="material-con1">
                     <label htmlFor="number">Number</label>
-                    <input type="number" id="number"/>
+                    <input type="number" id="number" className="input-con"/>
                 </div>
                 </div>
         </div>
