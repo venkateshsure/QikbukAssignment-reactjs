@@ -2,6 +2,7 @@ import { FaRoute,FaTrain } from "react-icons/fa";
 import { GiMaterialsScience } from "react-icons/gi";
 import { BsFileEarmarkPlusFill } from "react-icons/bs";
 import { MdAssignmentInd } from "react-icons/md";
+import { CiSearch,CiSquarePlus } from "react-icons/ci";
 
 
 import './index.css'
@@ -9,6 +10,21 @@ import './index.css'
 const Home =()=>{
     return (
         <div className="home-head-main-con">
+            <div className="home-head-top-con">
+                <div className="search-con">
+                    <CiSearch className="search-icon"/>
+                    <input type="search" placeholder="search" className="search-input"/>
+                </div>
+                <div className="home-head-top-text-con">
+                    <p>Live</p>
+                    <p>Result</p>
+                    <p>History</p>
+                </div>
+                <div className="home-head-top-button-con">
+                    <p className="create-text">Create</p>
+                    <CiSquarePlus className="plus-icon"/>
+                </div>
+            </div>
         <div className="home-head-con">
             <div className="fir-route-details">
                 <FaRoute className="route-details-icon"/>
